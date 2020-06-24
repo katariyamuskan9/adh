@@ -1,0 +1,47 @@
+html,body {
+    margin: 0;
+    height: 100%;
+    background: url('2.jpg') no-repeat;
+    background-size: cover;
+  }
+  .container {
+    height: 80%;
+   
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+ 
+  }
+  footer{
+      background-color: black;
+      color: white;
+      text-align: center;
+  font-size: 30px;
+  }
+  h1{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 0;
+  }
+  .superman { 
+    animation: up 7s infinite;
+   
+    width: 400px;  
+  } 
+  
+ 
+    @keyframes up{
+        from{
+        
+         
+         transform: translateX(-100px);
+         transform: translateY(-100px);
+      
+        
+        }
+        to{
+         transform: translateX(50px);
+         transform: translateY(50px);
+        }
+      
+      }
