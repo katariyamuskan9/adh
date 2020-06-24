@@ -1,6 +1,6 @@
 html,body {
     margin: 0;
-    height: 111%;
+    height: 120%;
     background: url('2.jpg') no-repeat;
     background-size: cover;
   }
@@ -26,7 +26,7 @@ html,body {
   .superman { 
     animation: up 7s infinite;
    
-    width: 400px;  
+    width: 300px;  
   } 
   
  
